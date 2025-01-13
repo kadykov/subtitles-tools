@@ -1,0 +1,17 @@
+---
+version: "3"
+
+tasks:
+  transcribe:
+    cmds:
+      - uv run transcribe.py
+    sources:
+      - input.mp4
+    outputs: -unformatted.txt
+  format:
+    cmds:
+      - uv run format.py
+    sources:
+      - unformatted.txt
+    outputs:
+      - formatted.txt

@@ -1,3 +1,11 @@
+input*
+repeated-lines*
+formatted*
+unformatted*
+
+# Go Task hashes
+.task
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
